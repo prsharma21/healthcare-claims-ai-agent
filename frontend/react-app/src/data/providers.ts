@@ -1,0 +1,43 @@
+import type { Provider } from "@/types/provider";
+
+export const providers: Provider[] = [
+  {
+    id: "PROV1001",
+    name: "ABC Hospital",
+    type: "HOSPITAL",
+    city: "Mumbai",
+    state: "Maharashtra",
+    registrationNumber: "MH-HOSP-20114",
+    networkStatus: "IN_NETWORK",
+    licenseStatus: "ACTIVE",
+    attendingPhysician: "Dr. Meera Iyer",
+    specialties: ["Internal Medicine", "Pulmonology", "Orthopedics"],
+    contactEmail: "billing@abchospital.example",
+  },
+  {
+    id: "PROV1002",
+    name: "XYZ Hospital",
+    type: "HOSPITAL",
+    city: "Pune",
+    state: "Maharashtra",
+    registrationNumber: "MH-HOSP-30872",
+    networkStatus: "IN_NETWORK",
+    licenseStatus: "ACTIVE",
+    attendingPhysician: "Dr. Arjun Rao",
+    specialties: ["Emergency Medicine", "General Surgery", "Endocrinology"],
+    contactEmail: "claims@xyzhospital.example",
+  },
+  {
+    id: "PROV1003",
+    name: "Demo Clinic",
+    type: "CLINIC",
+    city: "Bengaluru",
+    state: "Karnataka",
+    registrationNumber: "KA-CLIN-11903",
+    networkStatus: "IN_NETWORK",
+    licenseStatus: "ACTIVE",
+    attendingPhysician: "Dr. Kavita Nair",
+    specialties: ["Dermatology", "Cardiology", "Physiotherapy"],
+    contactEmail: "accounts@democlinic.example",
+  },
+];
